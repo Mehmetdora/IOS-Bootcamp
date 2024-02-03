@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
          
-        let num = 10
         setView()
         updatePageController()
         
@@ -65,6 +64,8 @@ class ViewController: UIViewController {
     }
     
     func setView(){
+        
+        // SETTİNG VİEW
         view.backgroundColor = UIColor(named: "AnaRenk")
         self.navigationItem.title = "Create An Account"
         
