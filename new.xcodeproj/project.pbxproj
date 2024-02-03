@@ -13,6 +13,8 @@
 		511946FD2B693730004A4911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511946FB2B693730004A4911 /* Main.storyboard */; };
 		511946FF2B693734004A4911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511946FE2B693734004A4911 /* Assets.xcassets */; };
 		511947022B693734004A4911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511947002B693734004A4911 /* LaunchScreen.storyboard */; };
+		5119470A2B693A2C004A4911 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 511947092B693A2B004A4911 /* Pacifico-Regular.ttf */; };
+		5119470D2B698616004A4911 /* EastSeaDokdo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5119470C2B698616004A4911 /* EastSeaDokdo-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		511946FE2B693734004A4911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		511947012B693734004A4911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		511947032B693734004A4911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		511947092B693A2B004A4911 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		5119470C2B698616004A4911 /* EastSeaDokdo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EastSeaDokdo-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,22 @@
 				511946F52B693730004A4911 /* AppDelegate.swift */,
 				511946F72B693730004A4911 /* SceneDelegate.swift */,
 				511946F92B693730004A4911 /* ViewController.swift */,
+				5119470B2B693A33004A4911 /* Fonts */,
 				511946FB2B693730004A4911 /* Main.storyboard */,
 				511946FE2B693734004A4911 /* Assets.xcassets */,
 				511947002B693734004A4911 /* LaunchScreen.storyboard */,
 				511947032B693734004A4911 /* Info.plist */,
 			);
 			path = new;
+			sourceTree = "<group>";
+		};
+		5119470B2B693A33004A4911 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				511947092B693A2B004A4911 /* Pacifico-Regular.ttf */,
+				5119470C2B698616004A4911 /* EastSeaDokdo-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5119470D2B698616004A4911 /* EastSeaDokdo-Regular.ttf in Resources */,
 				511947022B693734004A4911 /* LaunchScreen.storyboard in Resources */,
+				5119470A2B693A2C004A4911 /* Pacifico-Regular.ttf in Resources */,
 				511946FF2B693734004A4911 /* Assets.xcassets in Resources */,
 				511946FD2B693730004A4911 /* Main.storyboard in Resources */,
 			);
@@ -295,6 +311,7 @@
 				DEVELOPMENT_TEAM = ZT75FQ3SLS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = new/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Meeting 1.0";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +340,7 @@
 				DEVELOPMENT_TEAM = ZT75FQ3SLS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = new/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Meeting 1.0";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
